@@ -90,7 +90,7 @@ func AsciiArtTransform(text string, s string) map[int]string {
 	}
 
 	// Split the input text by newline characters.
-	result := regexp.MustCompile(`\n`).Split(text, -1)
+	result := regexp.MustCompile(`\r\n`).Split(text, -1)
 
 	return printAscii(file, offsetMap, result)
 
@@ -128,7 +128,7 @@ func saveText(saveString string) {
 	defer outfile.Close()
 
 	// Replace "<br>" with newline characters "\n"
-	saveString = strings.ReplaceAll(saveString, "<br>", "\n")
+	saveString = strings.ReplaceAll(saveString, "<br>", "\r\n")
 
 	_, err = outfile.WriteString(saveString)
 	check(err)
