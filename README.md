@@ -8,6 +8,7 @@ Afterwards you have to run this command in your vscode terminal: **bash run.sh**
 
 # ascii-art-web-docker
 
-Here is an example of the website style: https://i.imgur.com/oVVEiRc.png
+Here is an example of the website style:
+<img src="tere.png">
 
 Enjoy! :D
