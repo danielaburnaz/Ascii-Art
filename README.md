@@ -1,3 +1,12 @@
+# Ascii Art
+
+Here is an example of the website style:
+<img src="tere.png">
+
+Live version: 
+https://ascii-art-kuv0.onrender.com/
+
+## Usage
 Hello! Please use WSL for this program.
 This is a program which takes text and transforms it into ascii
 
@@ -14,9 +23,3 @@ http://localhost:8080/
 ```
  in your browser.
 
-# Ascii Art
-
-Here is an example of the website style:
-<img src="tere.png">
-
-Enjoy! :D
