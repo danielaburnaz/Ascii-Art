@@ -4,7 +4,7 @@ Here is an example of the website style:
 <img src="tere.png">
 
 Live version: 
-https://ascii-art-kuv0.onrender.com/
+https://ascii-arty.onrender.com
 
 ## Usage
 Hello! Please use WSL for this program.
